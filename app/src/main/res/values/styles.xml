@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Edittext">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_weight">70</item>
+        <item name="android:background">@drawable/border_edit</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+
+    <style name="but_sty">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_weight">30</item>
+        <item name="android:background">@drawable/bak_btn</item>
+    </style>
+
+    <style name="txt_sty">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+</resources>

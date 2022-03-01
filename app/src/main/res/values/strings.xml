@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="Text_But">Search</string>
+    <string name="Hint_Edit">city name</string>
+    <string name="london">London</string>
+    <string name="_20_c">20°C</string>
+    <string name="api_img_wither">Api_img_wither</string>
+</resources>

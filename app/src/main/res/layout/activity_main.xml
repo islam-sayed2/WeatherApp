@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:padding="12dp"
+        android:weightSum="100"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/Ed_txt"
+            android:hint="@string/Hint_Edit"
+            style="@style/Edittext"/>
+
+        <Button
+            android:id="@+id/But_Search"
+            android:text="@string/Text_But"
+            style="@style/but_sty" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_marginTop="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/icon_wih"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/api_img_wither"
+        android:scaleType="centerCrop"
+        tools:ignore="ImageContrastCheck"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+         android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_temp"
+            tools:text="@string/_20_c"
+            style="@style/txt_sty" />
+        <TextView
+            android:id="@+id/cty"
+           style="@style/txt_sty"
+            tools:text="@string/london"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>
